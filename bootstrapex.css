@@ -1,0 +1,41 @@
+body{
+    background-image: radial-gradient(circle, #ffffff, #d3d3d3, #a8a8a8, #7f7f7f, #595959);
+}
+
+    
+#jumboImg{
+   margin-top: 90px;
+    font-weight: 600;
+}
+
+.about{
+    text-align: center;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+.row{
+    padding: 1.5rem;
+}
+
+#query{
+    width: 250px;
+    
+}
+
+a{
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link, a:hover {
+    color: white;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0))
+    
+}
