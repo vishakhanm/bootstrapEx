@@ -1,11 +1,18 @@
-body{
+/* body{
     background-image: radial-gradient(circle, #ffffff, #d3d3d3, #a8a8a8, #7f7f7f, #595959);
-}
+} */
 
     
 #jumboImg{
-   margin-top: 90px;
+   margin-top: 50px;
     font-weight: 600;
+    background-image: url("https://i.pinimg.com/564x/e5/78/b8/e578b803719dea40fdaa8b45e64a9103.jpg"); 
+  background-color: #cccccc; 
+  background-position: center; 
+  font-family: 'Libre Baskerville', serif;
+  background-size: 40%;
+  /* background-repeat: no-repeat; 
+  background-size: cover;  */
 }
 
 .about{
@@ -22,7 +29,13 @@ h4{
 
 #query{
     width: 250px;
+    background-color: rgb(191, 191, 191);
+}
     
+
+
+#offering{
+    background-color: rgb(191, 191, 191);
 }
 
 a{

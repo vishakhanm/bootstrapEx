@@ -7,7 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- google fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
 
 	<!-- bootstrap css -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -23,9 +24,9 @@
 
 </head>
 
-<body>
+<body class="bg-light">
 
-	<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark  mb-3 ">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top  mb-3 ">
 
 	  <a class="navbar-brand" href="#"><i class="fas fa-om mr-2"></i>Interiors</a>
 
@@ -58,15 +59,16 @@
 
 	
 
-		<div class=" text-center mb-0" id="jumboImg">
+		<div class="jumbotron text-center mb-0" id="jumboImg">
 			<i class="fas fa-home mt-4" style="font-size: larger;"></i>
-			<h1 class="display-3">OM INTERIORS</h1>
-            <p class="lead">Home is not just four walls, its an emotion!</p>
+			<h1 class="display-4 mb-5">OM INTERIORS</h1>
+            <p class="lead">Making four walls an emotion!</p>
             <P class="mb-3">Since 1987</P>
         </div>
-        <hr class="mb-0 mt-3">
-        <div class="row pt-4">
-                <div class="container about">
+
+       
+        <div class="row pt-4 ">
+                <div class="container about ">
                     <h4>About Us</h4>  
                     <p> Nitin Mistry, founder of Om Interiors followed his father's footsteps and simply wanted good interiors. 
                         Instead, they got a rather appalling experience. 
@@ -81,16 +83,18 @@
                     </p>        
                 </div>   
         </div>
-        <div class="row ">
+        <hr class="mb-0 mt-3">
+        <div class="row mx-1">
             <!-- offerings: residential(home decor,),
             commercial(officies, restraurant, cafe, spa) -->
-            <div class="d-none d-md-block col-2 " id="offering">
-                <h4>
+            <div class="d-none d-md-block col-2 border border-light rounded " id="offering">
+                <h4 class="pt-3">
                     Offerings
                 </h4>
+                <br>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        Commercial Decor
+                        <span class="font-weight-bold ">Commercial Decor</span> 
                         <ul class="nav flex-column">
                             <li class="nav-item">
                             <a class="nav-link active" href="#">Office</a>
@@ -108,7 +112,7 @@
                     </li>
                 
                     <li class="nav-item">
-                        Residential
+                        <span class="font-weight-bold">Residential</span> 
                         <ul class="nav flex-column">
                             <li class="nav-item">
                                 <a class="nav-link active" href="#">Home Decor</a>
@@ -128,18 +132,18 @@
                 <div class="container">
                     <div class="row p-2">
                         <div class="col-md-6">
-                            <img src="https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg?auto=compress&cs=tinysrgb&h=350" alt="" class="img-fluid m-2 img-thumbnail">
+                            <img src="https://i.pinimg.com/564x/30/38/73/30387360abbf747456ff1effbb596dc1.jpg" alt="" class="img-fluid m-2 img-thumbnail">
                         </div>
                         <div class="col-md-6">
-                            <img src="https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&h=350" alt="" class="img-fluid m-2 img-thumbnail">
+                            <img src="https://i.pinimg.com/564x/1b/0a/3b/1b0a3bbb007fbb883f1708edbd28b2d0.jpg" alt="" class="img-fluid m-2 img-thumbnail">
                         </div>
     
                         <div class="row p-2">
                             <div class="col-md-6">
-                                <img src="https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?auto=compress&cs=tinysrgb&h=350" alt="" class="img-fluid m-2 img-thumbnail">
+                                <img src="https://i.pinimg.com/564x/a4/6e/b9/a46eb9c56e10aa9dcc80a2c136105ed1.jpg" alt="" class="img-fluid m-2 img-thumbnail">
                             </div>
                             <div class="col-md-6">
-                                <img src="https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg?auto=compress&cs=tinysrgb&h=350" alt="" class="img-fluid m-2 img-thumbnail">
+                                <img src="https://i.pinimg.com/564x/86/0d/41/860d4174e90bc3d6de509371493bc16b.jpg" alt="" class="img-fluid m-2 img-thumbnail">
                             </div>
                         </div>
                     </div>
@@ -148,11 +152,11 @@
             </div>
 
             <!-- query form -->
-            <div class="col-xl-3 ">
+            <div class="col-xl-3 border border-light rounded" id="query">
              
-                    <div id="query">
-                        <h3>For Queries</h3>
-                        <div class="form-group">
+                    <div >
+                        <h3 class="py-3">For Queries</h3>
+                        <div class="form-group ">
                             <input ype="text" placeholder="Name" id="" class=" form-control">
                         </div>
                         <div class="form-group">
