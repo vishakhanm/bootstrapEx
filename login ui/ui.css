@@ -1,0 +1,20 @@
+form{
+    width: 350px;
+    height: 500px;
+}
+
+#mainImage  {
+    width: 100%;
+    height: 80%;
+}
+
+body{
+    background-color: #000000;
+}
+
+#signin{
+    background-image: url(https://i.pinimg.com/564x/44/e5/dd/44e5dda61f9e61ab7652a972576dbe4e.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
