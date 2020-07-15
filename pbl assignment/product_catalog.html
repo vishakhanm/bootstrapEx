@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+
+    <title>Assignment 2</title>
+  </head>
+
+  <style>
+    h1{
+      text-align: center;
+    }
+  </style>
+
+
+  <body>
+    <div class="container">
+        <h1 class="mx-auto">Assignment 2</h1>
+        <div class="row">
+          <div class="col  mt-5">
+            <form action="product_catalog.php" method="post" class="d-flex justify-content-center">
+                <table>
+                    <tr>
+                        <th>
+                            Enter Product Id:
+                        </th>
+                        <td>
+                            <input type="text" name=id>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Enter Product Name:
+                        </th>
+                        <td>
+                            <input type="text" name=name>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Enter Product Price:
+                        </th>
+                        <td>
+                            <input type="text" name=price>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Enter Product Description:
+                        </th>
+                        <td>
+                            <input type="text" name=description>
+                        </td>
+                    </tr>
+                    <tr>
+                        
+                        <td colspan="2">
+                            <div class="d-flex justify-content-around mt-3">
+                                <input type="submit" value="CREATE" name="query">
+                        
+                        
+                                <input type="submit" value="ADD" name="query">
+                            
+                                <input type="submit" value="DELETE" name="query">
+                            </div>
+                            
+                        </td>
+                    </tr>
+                </table>
+            </form>
+          </div>    
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+  </body>
+</html>
